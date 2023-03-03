@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Web News - Contact</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        #more{display: none;}
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <ul>
+                <li class="f"><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Page</a></li>
+            </ul>
+                <p class="links">Subscribe: <a href="#">Posts</a> | <a href="#">Comments</a> | <a href="#">Email</a> </p>
+            <div class="break"></div>
+            <div class="logo">
+                <h1><a href="#">The Web News</a></h1>
+            </div>
+            <div class="break"></div>
+             <ol>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Editorial</a></li>
+                <li><a href="#">Videos</a></li>
+            </ol>
+            <div class="break"></div>
+        </div>
+        <div id="content">
+            <div class="single">
+               <h1><b>Bitcoin Miners’ Revenue Hits $9.55 Billion in 2022</b></h1>
+               <img src="images/Bitcoin 4.jpg" alt="paypal1" width="300" height="300">
+               <p>The investor drained $110 million in cryptocurrencies from the platform.
+                <span id="dots">...</span><span id="more"> 
+                    <br>
+                    <br>
+                 Avraham Eisenberg, the crypto investor whose
+                 ‘highly profitable trading strategy’ drained DeFi trading platform Mango Markets of crypto worth $110 million, 
+                 was arrested Monday in Puerto Rico, court documents said.
+                 <br>
+                 <br>
+                 The self-described game theorist admitted his role in draining Mango Markets’ treasury shortly after the incident in mid-October, and may now be the first U.S. resident to 
+                 face charges for his role in manipulating a decentralized-finance trading platform.
+                 <br>
+                 <br>
+                 <img src="images/paypal 2.jpg" alt="paypal2" width="300" height="300">
+                <br>
+                <br>
+                Eisenberg faces charges of commodities fraud and commodities manipulation, according to a filing unsealed Tuesday. 
+                The charges could see punishments ranging from fines to prison time.
+                <br>
+                <br>
+                A deposition signed by FBI Special Agent Brandon Racz alleges Eisenberg ‘willfully and knowingly’ 
+                manipulated the sale of a commodity – namely futures contracts on Mango Markets.
+                <br>
+                <br>
+                ‘Eisenberg engaged in a scheme involving the intentional and artificial manipulation of the price 
+                of perpetual futures contracts on a cryptocurrency exchange called Mango Markets, and other manipulative 
+                and deceptive devices and contrivances.’
+
+                </span>
+                </p>
+                
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+
+                <script>
+                    function myFunction() {
+                      var dots = document.getElementById("dots");
+                      var moreText = document.getElementById("more");
+                      var btnText = document.getElementById("myBtn");
+                    
+                      if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more"; 
+                        moreText.style.display = "none";
+                      } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less"; 
+                        moreText.style.display = "inline";
+                      }
+                    }
+                    </script>
+            </div>
+        </div>
+        <div id="sidebar">
+            <!-- begin search -->
+            <form class="search" action="#">
+              <input type="text" name="s" id="s" />
+              <button type="submit">Search</button>
+            </form>
+            <!-- end search -->
+            <div class="wrapper">
+                <div class="l sbar">
+                  <!-- begin pages -->
+                  <h2>Pages</h2>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Archives</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                  </ul>
+                  <!-- end pages -->
+                </div>
+            </div>
+        </div>
+        <!-- BEGIN footer -->
+        <div id="footer">
+            <p>Copyright &copy; 2009 - <a href="#">The Web News</a> &middot; All Rights Reserved</p>
+        </div>
+        <!-- END footer -->
+    </div>
+</body>
